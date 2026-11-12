@@ -73,6 +73,21 @@ vercel
 ```
 The root `vercel.json` automatically compiles the serverless API, builds the Vite React client to `client/dist`, proxies Base RPC requests, and serves the platform worldwide.
 
+### Deploy to Cloudflare Workers with Wrangler:
+```bash
+# Test Cloudflare Worker bundling & bindings locally
+npm run build:cf
+
+# Preview locally with Cloudflare edge runtime
+npm run dev:cf
+
+# Deploy globally to Cloudflare Workers (<50ms latency worldwide)
+npm run deploy:cf
+# Or directly:
+npx wrangler deploy
+```
+The root `wrangler.toml` and `src/worker.ts` serve the client SPA through **Cloudflare Workers Static Assets** (`[assets]`), proxy Base L2 RPC requests through `/rpc`, and run the BIR tax compliance and audit APIs on Cloudflare's global edge network.
+
 ---
 
 ## 💻 Quickstart (Run Locally in 2 Minutes)
