@@ -3,6 +3,9 @@
 
 > **"Verify the Platform. Protect the Content. Prove the Records."**
 > **100% Free Public Community Infrastructure &bull; Zero Paywalls &bull; Zero Gas Fees**
+> 
+> 🌐 **Live Cloudflare Production Deployment:** [https://trustchain-audit.janlad2025.workers.dev](https://trustchain-audit.janlad2025.workers.dev)  
+> ⚡ **Cloudflare Version ID:** `9221ccc4-a10b-4a62-8526-ef46aaa71885`
 
 ![TrustChain Audit Platform](/client/public/logo.jpg)
 
